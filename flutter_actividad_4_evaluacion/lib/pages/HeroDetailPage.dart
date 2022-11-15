@@ -12,8 +12,7 @@ class DetailPage extends StatelessWidget {
       body: Column(
         children: <Widget>[
           Hero(
-            tag: 'logo1',
-            
+            tag: 'logo1', 
             child: Container(
               width: 350,
               height: 350,
@@ -29,8 +28,6 @@ class DetailPage extends StatelessWidget {
             'Cuando el sol se pone, ninguna vela puede reemplazarlo. ...',
             style: TextStyle(color: Colors.blueGrey, fontSize: 30),
           )),       
-   
-            
         ],
       ),
     );

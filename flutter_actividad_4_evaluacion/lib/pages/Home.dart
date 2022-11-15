@@ -32,21 +32,6 @@ class _HomeState extends State<Home> {
               style:
                   TextStyle(color: Colors.black, fontWeight: FontWeight.bold),
             ),
-            MaterialButton(
-              minWidth: 30.0,
-              height: 40.0,
-              onPressed: () {
-                Navigator.pop(context);
-              },
-              color: Colors.amber,
-
-              /*
-              child: const Icon(
-                FeatherIcons.logOut,
-                color: Colors.white,
-              ),
-              */
-            ),
           ])),
     );
   }
@@ -54,34 +39,11 @@ class _HomeState extends State<Home> {
     return SingleChildScrollView(
       child: Column(
         children: [
-          //xd(),
-          //imagenGestion(),
           btnHeroAnimations(),
           btnLiquidSwipe(),
           const SizedBox(
             height: 50,
           )
-        ],
-      ),
-    );
-  }
-
-  Widget xd(){
-    return Padding(
-      padding: const EdgeInsets.only(top: 5, bottom: 5),
-      child: Stack(
-        children: [
-          const Positioned(
-            top: 45,
-            left: 20,
-            child: Text(
-              "Menú animaciones",
-              style: TextStyle(
-                  fontSize: 30,
-                  fontWeight: FontWeight.bold,
-                  color: Colors.black),
-            ),
-          ),
         ],
       ),
     );
