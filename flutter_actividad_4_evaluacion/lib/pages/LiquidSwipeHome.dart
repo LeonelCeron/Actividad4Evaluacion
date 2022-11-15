@@ -11,6 +11,9 @@ class LiquidSwipeHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        title: Text('LiquidSwipe animation'),
+      ),
       body: LiquidSwipe(
         pages: liquidPages,
         fullTransitionValue: 300,
