@@ -8,6 +8,7 @@ final liquidPages = [
     color: Colors.pinkAccent,
     child: Center(
       child: Container(
+        child: Text( 'Slide 01',style: estiloTexto ),
         width: 420,
         height: 250,
         decoration: const BoxDecoration(
@@ -22,6 +23,7 @@ final liquidPages = [
     color: Colors.deepPurpleAccent,
     child: Center(
       child: Container(
+        child: Text( 'Slide 02',style: estiloTexto ),
         width: 420,
         height: 250,
         decoration: const BoxDecoration(
@@ -39,6 +41,7 @@ final liquidPages = [
     child: Center(
       //child: Text( 'Slide 3',style: estiloTexto ),
       child: Container(
+        child: Text( 'Slide 03',style: estiloTexto ),
         width: 420,
         height: 250,
         decoration: const BoxDecoration(
@@ -53,6 +56,7 @@ final liquidPages = [
     color: Colors.blueAccent,
     child: Center(
       child: Container(
+        child: Text( 'Slide 04',style: estiloTexto ),
          width: 420,
          height: 250,
         decoration: const BoxDecoration(
@@ -67,6 +71,7 @@ final liquidPages = [
     color: Colors.orangeAccent,
     child: Center(
       child: Container(
+        child: Text( 'Slide 05',style: estiloTexto ),
          width: 420,
          height: 250,
         decoration: const BoxDecoration(
