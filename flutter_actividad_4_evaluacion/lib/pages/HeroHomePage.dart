@@ -22,15 +22,7 @@ class HeroHomePage extends StatelessWidget {
 
           TableRow(
             children: [
-              Placeholder(fallbackHeight: 150),
-              Placeholder(fallbackHeight: 150),
-              Placeholder(fallbackHeight: 150)
-            ]
-          ),
-
-          TableRow(
-            children: [
-              GestureDetector(
+                            GestureDetector(
                 onTap: () => pushRoute(context),
                 child: Hero(
                   tag: 'logo1',
@@ -40,6 +32,53 @@ class HeroHomePage extends StatelessWidget {
                     decoration: const BoxDecoration(
                         image: DecorationImage(
                             image: AssetImage('assets/img/beach01.jpg'),
+                            fit: BoxFit.cover)),
+                  ),
+                )
+              ),
+                            GestureDetector(
+                onTap: () => pushRoute(context),
+                child: Hero(
+                  tag: 'logo2',
+                  child: Container(
+                    width: 140,
+                    height: 140,
+                    decoration: const BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage('assets/img/beach02.jpg'),
+                            fit: BoxFit.cover)),
+                  ),
+                )
+              ),
+                            GestureDetector(
+                onTap: () => pushRoute(context),
+                child: Hero(
+                  tag: 'logo3',
+                  child: Container(
+                    width: 140,
+                    height: 140,
+                    decoration: const BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage('assets/img/beach03.jpg'),
+                            fit: BoxFit.cover)),
+                  ),
+                )
+              ),
+            ]
+          ),
+
+          TableRow(
+            children: [
+              GestureDetector(
+                onTap: () => pushRoute(context),
+                child: Hero(
+                  tag: 'logo4',
+                  child: Container(
+                    width: 140,
+                    height: 140,
+                    decoration: const BoxDecoration(
+                        image: DecorationImage(
+                            image: AssetImage('assets/img/beach04.jpg'),
                             fit: BoxFit.cover)),
                   ),
                 )

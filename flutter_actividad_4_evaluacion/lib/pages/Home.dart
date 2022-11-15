@@ -14,7 +14,7 @@ class _HomeState extends State<Home> {
     return Scaffold(
       backgroundColor: Colors.grey.shade100,
       appBar: appBarHome(),
-      body: bodyGestion(),
+      body: bodyApp(),
     );
   }
 
@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
           ])),
     );
   }
-  Widget bodyGestion() {
+  Widget bodyApp() {
     return SingleChildScrollView(
       child: Column(
         children: [

@@ -26,7 +26,7 @@ class DetailPage extends StatelessWidget {
           Container(
             padding: const EdgeInsets.all(30.0),
               child: const Text(
-            'Popular extensions for C++ development in Visual Studio Code. Este editor ha comprobado la propiedad de microsoft.c',
+            'Cuando el sol se pone, ninguna vela puede reemplazarlo. ...',
             style: TextStyle(color: Colors.blueGrey, fontSize: 30),
           )),       
    
